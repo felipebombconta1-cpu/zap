@@ -12,6 +12,9 @@ import makeWASocket, {
 } from "@whiskeysockets/baileys";
 let envioAtivo = false;
 let primeiroCiclo = true; // 🔥 ESSENCIAL
+
+
+
 // ======================================
 // 🔧  PATHS
 // ======================================
@@ -112,7 +115,7 @@ let sock;
 let ultimoQRCode = null;
 let whatsappStatus = "desconectado";
 let gruposDisponiveis = [];
-let envioAtivo = false;
+
 
 async function startWhatsApp() {
 
